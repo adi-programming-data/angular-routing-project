@@ -1,0 +1,6 @@
+<p>list works!</p>
+<a routerLink="/home">home</a>
+@for (item of arr; track item) {
+    <a routerLink="{{item}}">item {{item}}</a>
+}
+<router-outlet></router-outlet>

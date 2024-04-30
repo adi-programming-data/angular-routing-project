@@ -4,6 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --open",
+    "gh-build": "ng build --configuration production --base-href https://adi-programming-data.github.io/angular-routing-project/",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
